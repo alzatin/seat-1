@@ -8,6 +8,28 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.08992506244796003,
+            "y": 0.29508196721311475,
+            "uniqueID": 525292,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.20399666944213157,
+            "y": 0.2754098360655738,
+            "uniqueID": 447592,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n return sphere(1)    //return must be geometry;\n}\n\nreturn main(Input1, Input2)\n\n\n"
+        },
+        {
             "atomType": "GitHubMolecule",
             "name": "rounded corner trapeze",
             "x": 0.16069941715237301,
@@ -34,10 +56,43 @@
             ]
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.34388009991673607,
+            "y": 0.3868852459016393,
+            "uniqueID": 985085,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 15
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 60.5
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5037468776019983,
+            "y": 0.6131147540983606,
+            "uniqueID": 689941,
+            "ioValues": []
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.2722731057452123,
-            "y": 0.6327868852459017,
+            "x": 0.3563696919233972,
+            "y": 0.7147540983606557,
             "uniqueID": 557170,
             "ioValues": [
                 {
@@ -45,6 +100,15 @@
                     "ioValue": 1.5
                 }
             ]
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.22314737718567862,
+            "y": 0.7836065573770492,
+            "uniqueID": 620890,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
             "atomType": "Output",
@@ -61,6 +125,20 @@
             "ap2Primary": true,
             "ap1ID": 187251,
             "ap2ID": 557170
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 985085,
+            "ap2ID": 689941
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 557170,
+            "ap2ID": 689941
         }
     ],
     "fileTypeVersion": 1,
