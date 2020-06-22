@@ -8,6 +8,41 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "GitHubMolecule",
+            "name": "rounded corner rectangle",
+            "x": 0.1740216486261449,
+            "y": 0.4491803278688525,
+            "uniqueID": 910315,
+            "projectID": "274258140",
+            "ioValues": [
+                {
+                    "name": "corner radius",
+                    "ioValue": 3
+                },
+                {
+                    "name": "Rectangle height",
+                    "ioValue": 50
+                },
+                {
+                    "name": "Rectangle width",
+                    "ioValue": 80
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.2922564529558701,
+            "y": 0.7049180327868853,
+            "uniqueID": 557170,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 5
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9833472106577851,
@@ -15,7 +50,15 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 910315,
+            "ap2ID": 557170
+        }
+    ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": "1"
