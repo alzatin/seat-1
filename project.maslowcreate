@@ -75,8 +75,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.3329215565163681,
-            "y": 0.5081967213114754,
+            "x": 0.33752244165170553,
+            "y": 0.5043731778425656,
             "uniqueID": 985085,
             "ioValues": [
                 {
@@ -108,8 +108,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.2118491921005386,
-            "y": 0.5918367346938775,
+            "x": 0.21843207660083783,
+            "y": 0.6064139941690962,
             "uniqueID": 557170,
             "ioValues": [
                 {
@@ -130,13 +130,43 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.49790544584081387,
-            "y": 0.6793002915451896,
+            "x": 0.5014961101137044,
+            "y": 0.5918367346938775,
             "uniqueID": 689941,
             "ioValues": [
                 {
                     "name": "geometry2",
                     "ioValue": ""
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Sheet Metal Tab Take Two",
+            "x": 0.38420107719928187,
+            "y": 0.8104956268221574,
+            "uniqueID": 243180,
+            "projectID": "211329461",
+            "ioValues": [
+                {
+                    "name": "Tab Length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Tab Height",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Interior Radius",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Metal Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Cut Away Geometry",
+                    "ioValue": 10
                 }
             ]
         },
@@ -182,6 +212,13 @@
             "ap2Primary": false,
             "ap1ID": 557170,
             "ap2ID": 689941
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Bent",
+            "ap2Primary": false,
+            "ap1ID": 557170,
+            "ap2ID": 243180
         },
         {
             "ap1Name": "geometry",
