@@ -10,11 +10,41 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.20399666944213157,
-            "y": 0.2754098360655738,
+            "x": 0.24644842495367514,
+            "y": 0.19344262295081965,
+            "uniqueID": 118876,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n return Sphere(60)    //return must be geometry;\n}\n\nreturn main(Input1, Input2)\n\n\n"
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.1871525633106856,
+            "y": 0.2983606557377049,
             "uniqueID": 447592,
             "ioValues": [],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n return Sphere(60)    //return must be geometry;\n}\n\nreturn main(Input1, Input2)\n\n\n"
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.36812847436689317,
+            "y": 0.28524590163934427,
+            "uniqueID": 997960,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 40
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 60.5
+                }
+            ]
         },
         {
             "atomType": "GitHubMolecule",
@@ -26,7 +56,7 @@
             "ioValues": [
                 {
                     "name": "corner radiusÃÂ ",
-                    "ioValue": 3
+                    "ioValue": 10
                 },
                 {
                     "name": "Side length",
@@ -45,8 +75,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.3388842631140716,
-            "y": 0.35409836065573774,
+            "x": 0.3329215565163681,
+            "y": 0.5081967213114754,
             "uniqueID": 985085,
             "ioValues": [
                 {
@@ -64,6 +94,13 @@
             ]
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5114268066707844,
+            "y": 0.35737704918032787,
+            "ioValues": []
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.3630308076602831,
@@ -79,8 +116,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5070774354704414,
-            "y": 0.6065573770491803,
+            "x": 0.4990735021618283,
+            "y": 0.6852459016393443,
             "uniqueID": 689941,
             "ioValues": []
         },
@@ -97,8 +134,21 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
+            "ap1ID": 118876,
+            "ap2ID": 997960
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 447592,
             "ap2ID": 985085
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 997960
         },
         {
             "ap1Name": "Geometry",
@@ -124,6 +174,12 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 689941
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 689941
         }
