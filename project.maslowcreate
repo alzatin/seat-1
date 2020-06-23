@@ -8,38 +8,25 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.08992506244796003,
-            "y": 0.29508196721311475,
-            "uniqueID": 525292,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Code",
             "name": "Code",
             "x": 0.20399666944213157,
             "y": 0.2754098360655738,
             "uniqueID": 447592,
             "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n return sphere(1)    //return must be geometry;\n}\n\nreturn main(Input1, Input2)\n\n\n"
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n return Sphere(60)    //return must be geometry;\n}\n\nreturn main(Input1, Input2)\n\n\n"
         },
         {
             "atomType": "GitHubMolecule",
             "name": "rounded corner trapeze",
-            "x": 0.16069941715237301,
-            "y": 0.46229508196721314,
+            "x": 0.15320566194837634,
+            "y": 0.4426229508196722,
             "uniqueID": 187251,
             "projectID": "274260047",
             "ioValues": [
                 {
                     "name": "corner radiusÃÂ ",
-                    "ioValue": 10
+                    "ioValue": 3
                 },
                 {
                     "name": "Side length",
@@ -58,14 +45,10 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.34388009991673607,
-            "y": 0.3868852459016393,
+            "x": 0.3388842631140716,
+            "y": 0.35409836065573774,
             "uniqueID": 985085,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "xDist",
                     "ioValue": 15
@@ -81,23 +64,10 @@
             ]
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.5037468776019983,
-            "y": 0.6131147540983606,
-            "uniqueID": 689941,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.3563696919233972,
-            "y": 0.7147540983606557,
+            "x": 0.3630308076602831,
+            "y": 0.6918032786885246,
             "uniqueID": 557170,
             "ioValues": [
                 {
@@ -107,13 +77,12 @@
             ]
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.22314737718567862,
-            "y": 0.7836065573770492,
-            "uniqueID": 620890,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5070774354704414,
+            "y": 0.6065573770491803,
+            "uniqueID": 689941,
+            "ioValues": []
         },
         {
             "atomType": "Output",
@@ -124,6 +93,13 @@
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 447592,
+            "ap2ID": 985085
+        },
         {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
@@ -140,16 +116,16 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 689941
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 557170,
             "ap2ID": 689941
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 689941
         }
     ],
     "fileTypeVersion": 1,
