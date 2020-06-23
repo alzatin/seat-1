@@ -39,7 +39,7 @@
             "ioValues": [
                 {
                     "name": "corner radiusÃÂ ",
-                    "ioValue": 3
+                    "ioValue": 10
                 },
                 {
                     "name": "Side length",
@@ -86,7 +86,12 @@
             "x": 0.5037468776019983,
             "y": 0.6131147540983606,
             "uniqueID": 689941,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "Extrude",
@@ -132,6 +137,12 @@
             "ap2Primary": false,
             "ap1ID": 985085,
             "ap2ID": 689941
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 689941
         },
         {
             "ap1Name": "geometry",
