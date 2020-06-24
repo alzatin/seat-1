@@ -77,11 +77,25 @@
         },
         {
             "atomType": "Input",
-            "name": "Seat dent width",
+            "name": "Seat Length",
             "x": 0.013333333333333334,
-            "y": 0.3819241982507289,
-            "uniqueID": 927916,
+            "y": 0.36151603498542273,
+            "uniqueID": 602468,
             "ioValues": []
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.24416517055655296,
+            "y": 0.3877551020408163,
+            "uniqueID": 289765,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 50
+                }
+            ],
+            "currentEquation": "x/3"
         },
         {
             "atomType": "Input",
@@ -94,8 +108,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.26511071214841414,
-            "y": 0.5072886297376094,
+            "x": 0.26690604428485937,
+            "y": 0.5481049562682215,
             "uniqueID": 564996,
             "ioValues": [
                 {
@@ -113,15 +127,23 @@
             ]
         },
         {
+            "atomType": "Input",
+            "name": "Seat dent width",
+            "x": 0.013333333333333334,
+            "y": 0.6209912536443148,
+            "uniqueID": 927916,
+            "ioValues": []
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
             "x": 0.3925792938360263,
-            "y": 0.5189504373177842,
+            "y": 0.553935860058309,
             "uniqueID": 980102,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 37.5
+                    "ioValue": 16.666666666666668
                 },
                 {
                     "name": "yDist",
@@ -134,24 +156,42 @@
             ]
         },
         {
-            "atomType": "Input",
-            "name": "Seat Length",
-            "x": 0.013333333333333334,
-            "y": 0.6705539358600583,
-            "uniqueID": 602468,
-            "ioValues": []
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.6403351286654697,
+            "y": 0.2594752186588921,
+            "uniqueID": 990719,
+            "ioValues": [],
+            "readmeText": "Seat width distances are not well designed, will probably break if changed."
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5,
+            "y": 0.5,
+            "uniqueID": 794803,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "GitHubMolecule",
             "name": "Seat Dent",
-            "x": 0.15619389587073607,
+            "x": 0.21484141232794735,
             "y": 0.7405247813411079,
             "uniqueID": 282098,
             "projectID": "274432578",
             "ioValues": [
                 {
                     "name": "Back Sphere",
-                    "ioValue": 12
+                    "ioValue": 11.875
                 },
                 {
                     "name": "Front Sphere",
@@ -168,15 +208,29 @@
             "ioValues": []
         },
         {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.11250748055056853,
+            "y": 0.8454810495626822,
+            "uniqueID": 319298,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 19
+                }
+            ],
+            "currentEquation": "x/1.6"
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.38420107719928187,
-            "y": 0.7755102040816326,
+            "x": 0.37163375224416517,
+            "y": 0.7696793002915452,
             "uniqueID": 522772,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 17.5
+                    "ioValue": 40
                 },
                 {
                     "name": "yDist",
@@ -191,10 +245,28 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.7139437462597248,
-            "y": 0.5364431486880467,
+            "x": 0.7103530819868342,
+            "y": 0.5102040816326531,
             "uniqueID": 689941,
             "ioValues": []
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.28545780969479356,
+            "y": 0.8746355685131195,
+            "uniqueID": 574749,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 50
+                },
+                {
+                    "name": "y",
+                    "ioValue": 50
+                }
+            ],
+            "currentEquation": "x-y/5"
         },
         {
             "atomType": "Assembly",
@@ -245,17 +317,38 @@
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "Front Sphere",
+            "ap2Name": "Shape width",
             "ap2Primary": false,
-            "ap1ID": 927916,
-            "ap2ID": 282098
+            "ap1ID": 602468,
+            "ap2ID": 187251
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 564996,
-            "ap2ID": 522772
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 602468,
+            "ap2ID": 289765
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 602468,
+            "ap2ID": 574749
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": 602468,
+            "ap2ID": 574749
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": 289765,
+            "ap2ID": 980102
         },
         {
             "ap1Name": "geometry",
@@ -266,17 +359,31 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 564996,
+            "ap2ID": 522772
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Front Sphere",
+            "ap2Primary": false,
+            "ap1ID": 927916,
+            "ap2ID": 282098
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 927916,
+            "ap2ID": 319298
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 980102,
             "ap2ID": 310503
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "Shape width",
-            "ap2Primary": false,
-            "ap1ID": 602468,
-            "ap2ID": 187251
         },
         {
             "ap1Name": "Geometry",
@@ -293,6 +400,13 @@
             "ap2ID": 187251
         },
         {
+            "ap1Name": "result",
+            "ap2Name": "Back Sphere",
+            "ap2Primary": false,
+            "ap1ID": 319298,
+            "ap2ID": 282098
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
@@ -304,6 +418,13 @@
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 689941
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": 574749,
+            "ap2ID": 522772
         },
         {
             "ap1Name": "geometry",
