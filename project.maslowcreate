@@ -119,6 +119,14 @@
             ]
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.521244763614602,
+            "y": 0.6209912536443148,
+            "uniqueID": 689941,
+            "ioValues": []
+        },
+        {
             "atomType": "GitHubMolecule",
             "name": "Seat Dent",
             "x": 0.1424296828246559,
@@ -139,8 +147,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.36325553560742074,
-            "y": 0.8221574344023324,
+            "x": 0.36624775583482944,
+            "y": 0.8454810495626822,
             "uniqueID": 564996,
             "ioValues": [
                 {
@@ -153,17 +161,9 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 11.1
+                    "ioValue": 11.5
                 }
             ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.5074805505685218,
-            "y": 0.7988338192419825,
-            "uniqueID": 689941,
-            "ioValues": []
         },
         {
             "atomType": "Output",
@@ -209,6 +209,12 @@
             "ap2ID": 689941
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 689941
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -221,12 +227,6 @@
             "ap2Primary": false,
             "ap1ID": 564996,
             "ap2ID": 689941
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 689941
         }
     ],
     "fileTypeVersion": 1,
