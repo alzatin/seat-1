@@ -119,53 +119,48 @@
             ]
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "Seat Dent",
-            "x": 0.09156193895870736,
-            "y": 0.7638483965014577,
-            "uniqueID": 745502,
-            "projectID": "274432578",
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5056852184320766,
+            "y": 0.60932944606414,
+            "uniqueID": 689941,
             "ioValues": []
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.5014961101137044,
-            "y": 0.5918367346938775,
-            "uniqueID": 689941,
+            "atomType": "GitHubMolecule",
+            "name": "Seat Dent",
+            "x": 0.1424296828246559,
+            "y": 0.8134110787172012,
+            "uniqueID": 282098,
+            "projectID": "274432578",
             "ioValues": [
                 {
-                    "name": "geometry2",
-                    "ioValue": ""
+                    "name": "Back Sphere",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Front Sphere",
+                    "ioValue": 10
                 }
             ]
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "Sheet Metal Tab Take Two",
-            "x": 0.38420107719928187,
-            "y": 0.8104956268221574,
-            "uniqueID": 243180,
-            "projectID": "211329461",
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.36804308797127466,
+            "y": 0.8250728862973761,
+            "uniqueID": 564996,
             "ioValues": [
                 {
-                    "name": "Tab Length",
+                    "name": "xDist",
+                    "ioValue": 30
+                },
+                {
+                    "name": "yDist",
                     "ioValue": 10
                 },
                 {
-                    "name": "Tab Height",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Interior Radius",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Metal Thickness",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Cut Away Geometry",
+                    "name": "zDist",
                     "ioValue": 10
                 }
             ]
@@ -215,16 +210,23 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Bent",
-            "ap2Primary": false,
-            "ap1ID": 557170,
-            "ap2ID": 243180
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 689941
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 282098,
+            "ap2ID": 564996
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 564996,
+            "ap2ID": 689941
         }
     ],
     "fileTypeVersion": 1,
