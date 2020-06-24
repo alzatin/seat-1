@@ -6,24 +6,24 @@
     "uniqueID": 517410,
     "ioValues": [
         {
-            "name": "Seat side width",
+            "name": "Seat taper",
+            "ioValue": 7
+        },
+        {
+            "name": "Seat dent width",
+            "ioValue": 19
+        },
+        {
+            "name": "Distance betw. seat dentsÂ ",
             "ioValue": 10
         },
         {
-            "name": "Seat side width",
-            "ioValue": 10
+            "name": "Seat Length",
+            "ioValue": 50
         },
         {
             "name": "Seat side width",
-            "ioValue": 10
-        },
-        {
-            "name": "Seat side width",
-            "ioValue": 10
-        },
-        {
-            "name": "Distance betw. seat dents ",
-            "ioValue": 10
+            "ioValue": 20
         }
     ],
     "topLevel": true,
@@ -32,7 +32,7 @@
             "atomType": "Input",
             "name": "Seat taper",
             "x": 0.013333333333333334,
-            "y": 0.26822157434402333,
+            "y": 0.23323615160349856,
             "uniqueID": 682419,
             "ioValues": []
         },
@@ -85,7 +85,7 @@
         },
         {
             "atomType": "Input",
-            "name": "Distance betw. seat dents ",
+            "name": "Distance betw. seat dentsÂ ",
             "x": 0.013333333333333334,
             "y": 0.47813411078717205,
             "uniqueID": 248171,
@@ -98,6 +98,10 @@
             "y": 0.5072886297376094,
             "uniqueID": 564996,
             "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
                 {
                     "name": "yDist",
                     "ioValue": 0
@@ -140,8 +144,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Seat Dent",
-            "x": 0.12148414123279475,
-            "y": 0.7113702623906705,
+            "x": 0.15619389587073607,
+            "y": 0.7405247813411079,
             "uniqueID": 282098,
             "projectID": "274432578",
             "ioValues": [
@@ -219,6 +223,13 @@
     ],
     "allConnectors": [
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Angle",
+            "ap2Primary": false,
+            "ap1ID": 682419,
+            "ap2ID": 187251
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -231,6 +242,13 @@
             "ap2Primary": false,
             "ap1ID": 557170,
             "ap2ID": 689941
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Front Sphere",
+            "ap2Primary": false,
+            "ap1ID": 927916,
+            "ap2ID": 282098
         },
         {
             "ap1Name": "geometry",
@@ -254,11 +272,25 @@
             "ap2ID": 310503
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Shape width",
+            "ap2Primary": false,
+            "ap1ID": 602468,
+            "ap2ID": 187251
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 282098,
             "ap2ID": 564996
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Side length",
+            "ap2Primary": false,
+            "ap1ID": 471215,
+            "ap2ID": 187251
         },
         {
             "ap1Name": "geometry",
