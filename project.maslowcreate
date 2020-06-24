@@ -119,12 +119,42 @@
             ]
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.3853979652902454,
+            "y": 0.685131195335277,
+            "uniqueID": 980102,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.521244763614602,
-            "y": 0.6209912536443148,
+            "x": 0.5278276481149012,
+            "y": 0.6472303206997084,
             "uniqueID": 689941,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "GitHubMolecule",
@@ -136,24 +166,53 @@
             "ioValues": [
                 {
                     "name": "Back Sphere",
-                    "ioValue": 10
+                    "ioValue": 12
                 },
                 {
                     "name": "Front Sphere",
-                    "ioValue": 17
+                    "ioValue": 19
                 }
             ]
         },
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.36624775583482944,
-            "y": 0.8454810495626822,
+            "x": 0.3099940155595452,
+            "y": 0.8279883381924198,
             "uniqueID": 564996,
             "ioValues": [
                 {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 12.7
+                }
+            ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.4751645721125075,
+            "y": 0.7813411078717201,
+            "uniqueID": 310503,
+            "ioValues": []
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.38479952124476363,
+            "y": 0.8571428571428571,
+            "uniqueID": 522772,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "xDist",
-                    "ioValue": 30
+                    "ioValue": 0
                 },
                 {
                     "name": "yDist",
@@ -161,7 +220,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 11.5
+                    "ioValue": 0
                 }
             ]
         },
@@ -220,13 +279,6 @@
             "ap2Primary": true,
             "ap1ID": 282098,
             "ap2ID": 564996
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": 564996,
-            "ap2ID": 689941
         }
     ],
     "fileTypeVersion": 1,
