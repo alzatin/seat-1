@@ -121,18 +121,18 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Seat Dent",
-            "x": 0.14961101137043686,
-            "y": 0.8134110787172012,
+            "x": 0.14422501496110113,
+            "y": 0.8017492711370262,
             "uniqueID": 282098,
             "projectID": "274432578",
             "ioValues": [
                 {
                     "name": "Back Sphere",
-                    "ioValue": 5
+                    "ioValue": 10
                 },
                 {
                     "name": "Front Sphere",
-                    "ioValue": 10
+                    "ioValue": 15
                 }
             ]
         },
@@ -140,15 +140,15 @@
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.49670855774985034,
-            "y": 0.6967930029154519,
+            "y": 0.7084548104956269,
             "uniqueID": 689941,
             "ioValues": []
         },
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.360263315380012,
-            "y": 0.8717201166180759,
+            "x": 0.3518850987432675,
+            "y": 0.8658892128279884,
             "uniqueID": 564996,
             "ioValues": [
                 {
@@ -161,7 +161,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 20
+                    "ioValue": 10
                 }
             ]
         },
