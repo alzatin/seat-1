@@ -121,8 +121,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Seat Dent",
-            "x": 0.14422501496110113,
-            "y": 0.8017492711370262,
+            "x": 0.1424296828246559,
+            "y": 0.8367346938775511,
             "uniqueID": 282098,
             "projectID": "274432578",
             "ioValues": [
@@ -132,23 +132,15 @@
                 },
                 {
                     "name": "Front Sphere",
-                    "ioValue": 15
+                    "ioValue": 17
                 }
             ]
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.49670855774985034,
-            "y": 0.7084548104956269,
-            "uniqueID": 689941,
-            "ioValues": []
-        },
-        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.3518850987432675,
-            "y": 0.8658892128279884,
+            "x": 0.36325553560742074,
+            "y": 0.8221574344023324,
             "uniqueID": 564996,
             "ioValues": [
                 {
@@ -157,13 +149,21 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 20
+                    "ioValue": 0
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 10
+                    "ioValue": 11.1
                 }
             ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5074805505685218,
+            "y": 0.7988338192419825,
+            "uniqueID": 689941,
+            "ioValues": []
         },
         {
             "atomType": "Output",
@@ -217,16 +217,16 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 689941
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 564996,
             "ap2ID": 689941
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 689941
         }
     ],
     "fileTypeVersion": 1,
