@@ -10,16 +10,16 @@
             "ioValue": 7
         },
         {
-            "name": "Seat dent width",
-            "ioValue": 19
+            "name": "Seat Length",
+            "ioValue": 50
         },
         {
-            "name": "Distance betw. seat dentsÂ ",
+            "name": "Distance betw. seat dentsÃÂ ",
             "ioValue": 10
         },
         {
-            "name": "Seat Length",
-            "ioValue": 50
+            "name": "Seat dent width",
+            "ioValue": 19
         },
         {
             "name": "Seat side width",
@@ -99,7 +99,7 @@
         },
         {
             "atomType": "Input",
-            "name": "Distance betw. seat dentsÂ ",
+            "name": "Distance betw. seat dentsÃÂ ",
             "x": 0.013333333333333334,
             "y": 0.47813411078717205,
             "uniqueID": 248171,
