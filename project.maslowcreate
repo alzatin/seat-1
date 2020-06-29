@@ -14,7 +14,7 @@
             "ioValue": 50
         },
         {
-            "name": "Distance betw. seat dentsÃÂ ",
+            "name": "Distance betw. seat dents.",
             "ioValue": 10
         },
         {
@@ -99,7 +99,7 @@
         },
         {
             "atomType": "Input",
-            "name": "Distance betw. seat dentsÃÂ ",
+            "name": "Distance betw. seat dents.",
             "x": 0.013333333333333334,
             "y": 0.47813411078717205,
             "uniqueID": 248171,
